@@ -6,25 +6,28 @@
     <link href="css/style.css" rel="stylesheet" type="text/css" />
     <meta charset="utf-8" />
     <title>Mercado Tech</title>
-    <embed src="welcome.mp3" hidden="true" autostart="TRUE" />
-    <script>
+    <script type="text/javascript">
         function loading() {
-            $('#load').css('display', 'none');
+            $('#carregando').css('display', 'none');
         }
     </script>
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <embed src="welcome.mp3" hidden="true" autostart="TRUE" />
 </head>
-<body bgcolor="black" onload="loading()">
-    <div id="load"></div>
-    <div id="top">
-        <img src="img/logot.png" style="width:6%; z-index:2;">
-        <div class="top-menu">
-            <div class="menu-click">HOME</div>
-            <div class="menu-click">SERVIÇOS</div>
-            <div class="menu-click">PRODUTOS</div>
-            <div class="menu-click">SOBRE NÓS</div>
-        </div><!--top-menu-->
-    </div><!--top-->
-    <div id="top-line">r</div>
-    <img src="http://yodobi.com/4k-Wallpapers/4k-wallpapers-hd-Is-4K-Wallpaper.jpg">
+<body onload="loading()">
+    <div class="carregando" id="carregando">
+        <img src="img/loading.gif" style="width: 20%;">
+    </div>
+        <div id="top">
+            <img src="img/logot.png" style="width:6%; z-index:2;">
+            <div class="top-menu">
+                <div class="menu-click">HOME</div>
+                <div class="menu-click">SERVIÇOS</div>
+                <div class="menu-click">PRODUTOS</div>
+                <div class="menu-click">SOBRE NÓS</div>
+            </div><!--top-menu-->
+        </div><!--top-->
+        <div id="top-line">r</div>
+    <img src="https://www.thewallpapers.org/photo/76170/3-2-Rocky_Beach.jpg" />
 </body>
 </html>
