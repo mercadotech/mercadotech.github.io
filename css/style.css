@@ -51,8 +51,13 @@ body
     float: left;
     background-color: #1b3af2;
     border-radius: 0.5vw 0.5vw 0.5vw 0.5vw;
-    color: white;
+    color: yellow;
     z-index: 1;
+}
+
+.menu-click a{
+    text-decoration: none;
+    color: inherit;
 }
 
 #top-line {
@@ -61,4 +66,28 @@ body
     background-color: #1b3af2;
     font-size: 0.1vm;
     color: #1b3af2;
+}
+
+#produtos {
+    width: 14vw;
+    height: 18vw;
+    background-color: #ededed;
+    float: left;
+    margin-left: 3.5vw;
+    margin-right: 2vw;
+    margin-top: 5vw;
+    z-index: 1;
+    font-size: 1.5vw;
+}
+
+#produtos a{
+    text-decoration: none;
+}
+
+.pimagens{
+    width: 14vw;
+    height: 14vw;
+    background-color: yellow;
+    float: left;
+    z-index: 2;
 }
